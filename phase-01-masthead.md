@@ -2,7 +2,7 @@
 
 ![masthead][masthead]
 
-In this first step, you will start with the HTML to create the masthead that you
+In this first step, you will start with the HTML to create the masthead that youu
 see in the screenshot above. This screenshot is available for you to open and
 refer to in **specifications/screenshots/masthead.png**. You may want to open it
 and keep it around to refer to while you're working.

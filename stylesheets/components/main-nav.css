@@ -1,1 +1,10 @@
 /* Your code here */
+
+.main>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 150px;
+    padding: 20px;
+    font-weight: solid;
+}

@@ -1,1 +1,92 @@
 /* Your code here */
+
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "menu-and-search null actions" ". technologies ." "date logo paper";
+    grid-auto-rows: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.masthead__menu-and-search {
+    grid-area: menu-and-search;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.masthead__actions {
+    grid-area: actions;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.masthead__technologies {
+    grid-area: technologies;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.masthead__date {
+    grid-area: date;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+.masthead__logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+
+.masthead__paper {
+    grid-area: paper;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-top: 0px;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.top__icons {
+    Font-size: 15px;
+    padding: 7px 9px;
+}
+
+.top__icons:hover {
+    color: lightgray;
+}
+
+.tech {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgb(129, 118, 118);
+    margin: auto 2px;
+}
+
+.tech_holder {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    width: fit-content;
+}

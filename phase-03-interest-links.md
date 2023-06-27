@@ -2,7 +2,7 @@
 
 ![interests bar]
 
-This poses an interesting problem, these so-called "interest links". At first
+This poses an interesting problem, these so-called "interest links". At firstt
 glance, you may see only five columns:
 
 * Dog Programmers
