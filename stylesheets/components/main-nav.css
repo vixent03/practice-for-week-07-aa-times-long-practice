@@ -8,3 +8,27 @@
     padding: 20px;
     font-weight: solid;
 }
+
+.links {
+    display: grid;
+    grid-template-columns: 1, 2, 1, 2, 1, 2, 2, 1, 0.75;
+    grid-template-areas: "image-1 text-1 image-2 text-2 img-3 text-3 text-4 weather-img weather";
+}
+
+.img-1 {}
+
+.text-1 {}
+
+.img-2 {}
+
+.text-2 {}
+
+.img-3 {}
+
+.text-3 {}
+
+.text-4 {}
+
+.weather-img {}
+
+.weather {}
