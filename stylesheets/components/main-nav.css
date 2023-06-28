@@ -1,34 +1,75 @@
 /* Your code here */
 
-.main>ul {
+.ul-holder>ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 150px;
+    margin: auto;
     padding: 20px;
     font-weight: solid;
+    width: max-content;
+}
+
+li {
+    padding: 10px;
+}
+
+.ul-holder {
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
 }
 
 .links {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1, 2, 1, 2, 1, 2, 2, 1, 0.75;
+    grid-template-rows: 0;
     grid-template-areas: "image-1 text-1 image-2 text-2 img-3 text-3 text-4 weather-img weather";
 }
 
-.img-1 {}
+.img {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+    margin: auto;
+}
 
-.text-1 {}
+.text {
+    width: fit-content;
+}
 
-.img-2 {}
+#img-1 {
+    grid-area: image-1;
+}
 
-.text-2 {}
+#text-1 {
+    grid-area: text-1;
+}
 
-.img-3 {}
+#img-2 {
+    grid-area: image-2;
+}
 
-.text-3 {}
+#text-2 {
+    grid-area: text-2;
+}
 
-.text-4 {}
+#img-3 {
+    grid-area: img-3;
+}
 
-.weather-img {}
+#text-3 {
+    grid-area: text-3;
+}
 
-.weather {}
+#text-4 {
+    grid-area: text-4;
+}
+
+#weather-img {
+    grid-area: weather-img;
+}
+
+#weather {
+    grid-area: waether;
+}
