@@ -1,1 +1,103 @@
 /* Your code here */
+
+.interests-bar__stock-price {
+    padding: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.interests-bar__price {
+    color: green;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.links {
+    display: inline-grid;
+    grid-template-columns: 1, 2, 1, 2, 1, 2, 2, 1, 0.75;
+    grid-template-rows: 1fr;
+    grid-template-areas: "image-1 text-1 image-2 text-2 img-3 text-3 text-4 weather-img weather";
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 1px solid lightgray;
+}
+
+.img {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.text {
+    width: fit-content;
+    border-right: 1px solid lightgray;
+}
+
+p>.text {
+    border-right: 1px solid lightgray;
+}
+
+#img-1 {
+    grid-area: image-1;
+}
+
+#text-1 {
+    grid-area: text-1;
+    border-right: 1px solid lightgray;
+}
+
+#img-2 {
+    grid-area: image-2;
+}
+
+#text-2 {
+    grid-area: text-2;
+}
+
+#img-3 {
+    grid-area: img-3;
+}
+
+#text-3 {
+    grid-area: text-3;
+}
+
+#text-4 {
+    grid-area: text-4;
+}
+
+#weather-img {
+    grid-area: weather-img;
+}
+
+#weather {
+    grid-area: waether;
+}
+
+.text-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
