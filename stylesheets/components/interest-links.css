@@ -101,3 +101,9 @@ p>.text {
     box-sizing: border-box;
     font-weight: bold;
 }
+
+@media only screen and(width < 1000px) {
+    .links * {
+        visibility: hidden;
+    }
+}

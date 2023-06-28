@@ -7,6 +7,7 @@
     <title>App Academy Times</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
     <link rel="stylesheet" href="stylesheets\main-styles.css">
+    <script src="scripts\event-handling.js"></script>
 </head>
 
 <body>
@@ -19,6 +20,10 @@
                 <div class="top__icons">
                     <i class="fa fa-search"></i>
                 </div>
+                <div class="search-modal">
+                    <input type="search" class="search-modal__input" placeholder="Search">
+                    <button class="search-model__go">Go</button>
+                </div>
             </div>
             <div class="null"></div>
             <div class="masthead__actions">
@@ -26,6 +31,24 @@
                 <button>login</button>
                 <div class="top__icons">
                     <i class="fas fa-cog"></i>
+                    <div class="pref pref--hidden">
+                        <div class="pref__section">
+                            <div class="pref__section-header">Edition</div>
+                            <ul>
+                                <li class="pref__section-link"><a href="#">CSS</a></li>
+                                <li class="pref__section-link"><a href="#">HTML</a></li>
+                                <li class="pref__section-link"><a href="#">JavaScript</a></li>
+                                <li class="pref__section-link"><a href="#">Python</a></li>
+                            </ul>
+                        </div>
+                        <div class="pref__section">
+                            <div class="pref__section-header">Help</div>
+                            <ul>
+                                <li class="pref__section-link"><a href="#">FAQ</a></li>
+                                <li class="pref__section-link"><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="masthead__technologies">

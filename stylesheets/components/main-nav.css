@@ -18,3 +18,9 @@ li {
     justify-content: space-around;
     border-bottom: 1px solid lightgray;
 }
+
+@media only screen and ( width < 1000px) {
+    nav.links {
+        display: none;
+    }
+}

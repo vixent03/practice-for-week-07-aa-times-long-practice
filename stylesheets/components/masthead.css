@@ -71,6 +71,7 @@
 .top__icons {
     Font-size: 15px;
     padding: 7px 9px;
+    display: inline-block;
 }
 
 .top__icons:hover {
@@ -89,4 +90,10 @@
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
     width: fit-content;
+}
+
+@media only screen and(width < 100px) {
+    div.ul-holder * {
+        display: none;
+    }
 }
