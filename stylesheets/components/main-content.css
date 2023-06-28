@@ -1,1 +1,122 @@
 /* Your code here */
+
+h1 {
+    font-weight: bolder;
+    margin: 15px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    gap: 0 20px;
+}
+
+.inner-main-div-left {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+}
+
+.inner-nested-div-right {
+    font-size: small;
+    padding: -30px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.inner-nested-div-left {
+    font-size: small;
+    box-sizing: border-box;
+}
+
+.video-div {
+    padding: 20px;
+    margin: -20px;
+    width: px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "first second";
+}
+
+.first {
+    grid-area: first;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 15px;
+    font-size: small;
+}
+
+.second {
+    grid-area: second;
+    border-top: 1px solid black;
+    padding: 15px;
+    font-size: small;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
+header {
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 3px;
+    text-align: left;
+    color: #4d7b9f;
+}
+
+.comments {
+    color: #4d7b9f;
+    margin-bottom: 10px;
+}
+
+.article {
+    font-size: small;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#second-comment {
+    margin-top: 20px;
+}
+
+.aside-holder {
+    border-bottom: 1px solid lightgray;
+    margin: 10px;
+}
+
+.main-div-right {
+    border-left: 1px solid lightgray;
+}
+
+.aside {
+    font-size: small;
+}
+
+.new-office-img-container {
+    border-bottom: 1px solid lightgray;
+}
+
+.lastdiv {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.lastdiv-container {
+    font-size: x-small;
+    padding: 5px
+}

@@ -21,7 +21,7 @@
     grid-template-areas: "image-1 text-1 image-2 text-2 img-3 text-3 text-4 weather-img weather";
     width: fit-content;
     height: fit-content;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid black;
 }
 
 .img {
